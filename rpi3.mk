@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     libGLES_mesa \
     gralloc.$(TARGET_PRODUCT) \
     hwcomposer.$(TARGET_PRODUCT) \
-    audio.primary.$(TARGET_PRODUCT) \
     audio.usb.default \
     wpa_supplicant \
     wpa_supplicant.conf
@@ -32,8 +31,6 @@ PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
-    frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
-    frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     $(LOCAL_PATH)/rpi3_core_hardware.xml:system/etc/permissions/rpi3_core_hardware.xml \
     $(LOCAL_PATH)/init.rpi3.rc:root/init.rpi3.rc \
     $(LOCAL_PATH)/init.usb.rc:root/init.usb.rc \
@@ -42,8 +39,6 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/Generic.kl:system/usr/keylayout/Generic.kl \
     $(LOCAL_PATH)/firmware/brcm/brcmfmac43430-sdio.bin:root/lib/firmware/brcm/brcmfmac43430-sdio.bin \
     $(LOCAL_PATH)/firmware/brcm/brcmfmac43430-sdio.txt:root/lib/firmware/brcm/brcmfmac43430-sdio.txt \
-    $(LOCAL_PATH)/firmware/brcm/BCM43430A1.hcd:root/lib/firmware/brcm/BCM43430A1.hcd \
-    $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
     $(PRODUCT_COPY_FILES)
 
 # media configurations

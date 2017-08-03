@@ -10,9 +10,6 @@ Read it first : https://github.com/android-rpi/local_manifests
 # Install python mako module
   sudo apt-get install python-mako
 
-# Patch framework source :
-  https://github.com/android-rpi/device_brcm_rpi3/wiki#use-hal_pixel_format_bgra_8888
- 
 # Build Android source
  Continue build with http://source.android.com/source/building.html
  $ source build/envsetup.sh

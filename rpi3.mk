@@ -24,7 +24,10 @@ PRODUCT_PACKAGES += \
     audio.primary.rpi3 \
     audio.usb.default \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    wificond \
+    wifilogd \
+    android.hardware.wifi@1.0-service
 
 # system configurations
 PRODUCT_COPY_FILES := \

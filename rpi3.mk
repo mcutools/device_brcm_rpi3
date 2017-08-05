@@ -19,8 +19,9 @@ PRODUCT_PACKAGES += \
 # system packages
 PRODUCT_PACKAGES += \
     libGLES_mesa \
-    gralloc.$(TARGET_PRODUCT) \
-    hwcomposer.$(TARGET_PRODUCT) \
+    gralloc.rpi3 \
+    hwcomposer.rpi3 \
+    audio.primary.rpi3 \
     audio.usb.default \
     wpa_supplicant \
     wpa_supplicant.conf

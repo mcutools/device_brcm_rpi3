@@ -38,3 +38,5 @@ USE_CAMERA_STUB := true
 
 BOARD_SEPOLICY_DIRS := \
     device/brcm/rpi3/sepolicy
+
+BUILD_BROKEN_ENG_DEBUG_TAGS := true
